@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rooted News — landscaping tips, project insights, and Pacific Northwest outdoor living ideas from Oregon Landscape. Based in Clackamas, serving Portland and the surrounding metro." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="variables.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pages.css" />
+  <title>Rooted News — Oregon Landscape</title>
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Oregon Landscape home">
+        <img src="Public/logo.png" alt="Oregon Landscape" class="logo__img" />
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav__link">Home</a>
+        <div class="nav__dropdown-wrap">
+          <a href="services.html" class="nav__link nav__dropdown-toggle">Services
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav__dropdown-menu">
+            <a href="landscape-design.html">Landscape Design</a>
+            <a href="water-features.html">Water Features</a>
+            <a href="outdoor-living.html">Outdoor Living</a>
+            <a href="patios-walkways.html">Patios &amp; Walkways</a>
+            <a href="planting.html">Planting</a>
+            <a href="retaining-walls.html">Retaining Walls</a>
+            <a href="outdoor-lighting.html">Outdoor Lighting</a>
+            <a href="lawn-irrigation.html">Lawn &amp; Irrigation</a>
+            <a href="installation-maintenance.html">Installation &amp; Maintenance</a>
+          </div>
+        </div>
+        <a href="portfolio.html" class="nav__link">Portfolio</a>
+        <a href="projects.html" class="nav__link">Projects</a>
+        <a href="about-us.html" class="nav__link">About Us</a>
+        <a href="rooted-news.html" class="nav__link nav__link--page-active">Rooted News</a>
+        <a href="contact-us.html" class="nav__link">Contact</a>
+      </nav>
+      <a href="contact-us.html" class="btn btn--primary header__quote-btn"><span>Free Estimate</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <img src="Public/portfolio/dsc-2749.jpeg" class="page-hero__bg" alt="" />
+    <div class="page-hero__overlay"></div>
+    <div class="page-hero__content">
+      <div class="page-hero__breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span>Rooted News</span>
+      </div>
+      <h1 class="page-hero__title">Rooted News</h1>
+      <p class="page-hero__sub">Landscaping tips, project insights, and Pacific Northwest outdoor living ideas — straight from the field.</p>
+    </div>
+  </section>
+
+  <!-- Featured Post -->
+  <section class="blog-featured">
+    <div class="container">
+      <div class="blog-featured__card reveal">
+        <div class="blog-featured__photo">
+          <img src="Public/portfolio/dsc-3067.jpeg" alt="Natural waterfall in Pacific Northwest landscape" loading="lazy" />
+          <span class="blog-featured__tag">Water Features</span>
+        </div>
+        <div class="blog-featured__body">
+          <div class="blog-featured__meta">
+            <span>Featured</span>
+            <span>·</span>
+            May 14, 2025
+          </div>
+          <h2 class="blog-featured__title">Natural Waterfalls vs. Pondless Systems: Which Is Right for Your Property?</h2>
+          <p class="blog-featured__excerpt">Both deliver the sound and movement of water — but the right choice depends on your lot, your lifestyle, and how much maintenance you actually want to take on. We break down the real differences so you can decide with confidence before the first shovel goes in the ground.</p>
+          <a href="#" class="blog-featured__link">Read the Full Article
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Grid -->
+  <section class="blog-grid-section">
+    <div class="container">
+      <div class="blog-grid-head">
+        <h2>All Articles</h2>
+        <div class="blog-filters">
+          <button class="blog-filter-btn active" data-filter="all">All</button>
+          <button class="blog-filter-btn" data-filter="planting">Planting</button>
+          <button class="blog-filter-btn" data-filter="hardscape">Hardscape</button>
+          <button class="blog-filter-btn" data-filter="water">Water Features</button>
+          <button class="blog-filter-btn" data-filter="outdoor-living">Outdoor Living</button>
+          <button class="blog-filter-btn" data-filter="maintenance">Maintenance</button>
+        </div>
+      </div>
+
+      <div class="blog-grid" id="blogGrid">
+
+        <article class="blog-card reveal" data-cat="planting">
+          <div class="blog-card__photo">
+            <img src="Public/portfolio/planting.jpg" alt="Pacific Northwest winter plants" loading="lazy" />
+            <span class="blog-card__tag">Planting</span>
+          </div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">May 8, 2025</div>
+            <h3 class="blog-card__title">The Best Plants for Pacific Northwest Winters</h3>
+            <p class="blog-card__excerpt">Most landscapes look great in June. The ones that look great in January are the ones designed with winter in mind. Here are the plants we reach for when building four-season interest into a Pacific Northwest garden.</p>
+            <a href="#" class="blog-card__link">Read More
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal reveal--delay-1" data-cat="hardscape">
+          <div class="blog-card__photo">
+            <img src="Public/portfolio/patios-walkways.jpg" alt="Permeable paver patio in Portland" loading="lazy" />
+            <span class="blog-card__tag">Hardscape</span>
+          </div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">April 29, 2025</div>
+            <h3 class="blog-card__title">Why Permeable Pavers Are Smart in Portland</h3>
+            <p class="blog-card__excerpt">Portland's stormwater management rules are tightening, and permeable pavers do double duty — managing runoff on-site while looking just as good as standard paving. Here's what you need to know before your next patio project.</p>
+            <a href="#" class="blog-card__link">Read More
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal reveal--delay-2" data-cat="maintenance">
+          <div class="blog-card__photo">
+            <img src="Public/portfolio/dsc-8114.jpeg" alt="Retaining wall inspection" loading="lazy" />
+            <span class="blog-card__tag">Maintenance</span>
+          </div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">April 17, 2025</div>
+            <h3 class="blog-card__title">5 Signs Your Retaining Wall Needs Professional Attention</h3>
+            <p class="blog-card__excerpt">Retaining walls don't fail overnight — they give you warnings first. Catching these five signs early can be the difference between a simple repair and a full rebuild. We explain what to look for and when to call someone in.</p>
+            <a href="#" class="blog-card__link">Read More
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal" data-cat="outdoor-living">
+          <div class="blog-card__photo">
+            <img src="Public/portfolio/outdoor-living.jpg" alt="Covered outdoor living space in Oregon" loading="lazy" />
+            <span class="blog-card__tag">Outdoor Living</span>
+          </div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">April 3, 2025</div>
+            <h3 class="blog-card__title">How to Extend Your Outdoor Living Season in Oregon</h3>
+            <p class="blog-card__excerpt">Oregon's rainy season doesn't have to end your time outside. The right combination of cover, heat, and windblocking can turn a fair-weather patio into a space you use ten months a year. Here's how we approach it.</p>
+            <a href="#" class="blog-card__link">Read More
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal reveal--delay-1" data-cat="hardscape">
+          <div class="blog-card__photo">
+            <img src="Public/portfolio/dsc-7966.jpeg" alt="Paver patio with garden beds" loading="lazy" />
+            <span class="blog-card__tag">Hardscape</span>
+          </div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">March 21, 2025</div>
+            <h3 class="blog-card__title">Concrete Pavers vs. Natural Stone: A Practical Guide</h3>
+            <p class="blog-card__excerpt">Both materials look great in photos. But durability, maintenance, cost, and what actually holds up through a Portland winter are different stories. We help you think through the decision before you commit to either.</p>
+            <a href="#" class="blog-card__link">Read More
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal reveal--delay-2" data-cat="planting">
+          <div class="blog-card__photo">
+            <img src="Public/portfolio/dsc-8286.jpeg" alt="Oregon landscape design consultation" loading="lazy" />
+            <span class="blog-card__tag">Planting</span>
+          </div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">March 10, 2025</div>
+            <h3 class="blog-card__title">Oregon-Native Plants That Actually Thrive in Your Yard</h3>
+            <p class="blog-card__excerpt">Native plants are having a moment — but not every Oregon native belongs in every yard. Soil, light, drainage, and deer pressure all matter. We walk through the natives that perform reliably across the Portland metro area.</p>
+            <a href="#" class="blog-card__link">Read More
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal" data-cat="water">
+          <div class="blog-card__photo">
+            <img src="Public/portfolio/pond.jpg" alt="Koi pond in Pacific Northwest garden" loading="lazy" />
+            <span class="blog-card__tag">Water Features</span>
+          </div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">February 27, 2025</div>
+            <h3 class="blog-card__title">How to Winterize Your Water Feature the Right Way</h3>
+            <p class="blog-card__excerpt">A poorly winterized pond or waterfall system can mean cracked pipes, dead fish, and a costly repair in spring. We go through the exact steps we take to put water features to bed for an Oregon winter — and what homeowners can do themselves.</p>
+            <a href="#" class="blog-card__link">Read More
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal reveal--delay-1" data-cat="maintenance">
+          <div class="blog-card__photo">
+            <img src="Public/portfolio/waterfall.jpeg" alt="Spring landscape maintenance" loading="lazy" />
+            <span class="blog-card__tag">Maintenance</span>
+          </div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">February 12, 2025</div>
+            <h3 class="blog-card__title">Your Spring Landscape Checklist for the Portland Metro</h3>
+            <p class="blog-card__excerpt">Spring in Oregon happens fast. The window between soil workable and plants exploding is narrow. Here's the order of operations we follow every spring to get landscapes back in shape without wasting time or missing the right moment.</p>
+            <a href="#" class="blog-card__link">Read More
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal reveal--delay-2" data-cat="outdoor-living">
+          <div class="blog-card__photo">
+            <img src="Public/portfolio/outdoor-lighting.jpg" alt="Outdoor lighting design at night" loading="lazy" />
+            <span class="blog-card__tag">Outdoor Living</span>
+          </div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">January 30, 2025</div>
+            <h3 class="blog-card__title">Landscape Lighting Done Right: What Most Homeowners Miss</h3>
+            <p class="blog-card__excerpt">Good landscape lighting isn't about brightness — it's about what you illuminate, what you leave dark, and how the fixtures disappear into the landscape during the day. Here's how we approach lighting design from the very beginning of a project.</p>
+            <a href="#" class="blog-card__link">Read More
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-bar">
+    <img src="Public/Ready%20to%20Transform%20Your%20Outdoor%20Space%3F.png" class="cta-bar__plant cta-bar__plant--left" alt="" aria-hidden="true" />
+    <img src="Public/Ready%20to%20Transform%20Your%20Outdoor%20Space%3F.png" class="cta-bar__plant cta-bar__plant--right" alt="" aria-hidden="true" />
+    <div class="container cta-bar__inner">
+      <div class="cta-bar__left reveal">
+        <div class="cta-bar__text">
+          <h2>Ready to Transform Your Outdoor Space?</h2>
+          <p>Let's build something beautiful together. Free consultation — no commitment.</p>
+        </div>
+      </div>
+      <div class="cta-bar__right reveal reveal--delay-1">
+        <a href="tel:5038554976" class="btn btn--primary btn--lg">Call 503-855-4976</a>
+        <a href="contact-us.html" class="btn btn--ghost cta-bar__email-btn">Request a Quote →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <img src="Public/footer.png" class="footer__bg" alt="" aria-hidden="true" />
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="logo"><img src="Public/logo.png" alt="Oregon Landscape" class="logo__img" /></a>
+        <p>Design, installation, and maintenance for homeowners and commercial properties across the Portland metro. Family-owned since 2009.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <a href="landscape-design.html">Landscape Design</a>
+        <a href="outdoor-living.html">Outdoor Living</a>
+        <a href="patios-walkways.html">Patios &amp; Walkways</a>
+        <a href="water-features.html">Water Features</a>
+        <a href="outdoor-lighting.html">Outdoor Lighting</a>
+        <a href="lawn-irrigation.html">Lawn &amp; Irrigation</a>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="about-us.html">About Us</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="rooted-news.html">Rooted News</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact-us.html">Contact</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="tel:5038554976">503-855-4976</a>
+        <a href="mailto:info@oregonlandscape.com">info@oregonlandscape.com</a>
+        <p style="color:rgba(255,255,255,0.60);font-size:.875rem;margin-top:.5rem;">14081 SE Morning Way<br/>Clackamas, OR 97015</p>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; <span id="year"></span> Oregon Landscape LLC · LCB #8864 · All rights reserved</p>
+      <div><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    // Blog category filter
+    const filterBtns = document.querySelectorAll('.blog-filter-btn');
+    const blogCards  = document.querySelectorAll('.blog-card');
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        blogCards.forEach(card => {
+          card.style.display = (filter === 'all' || card.dataset.cat === filter) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>

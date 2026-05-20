@@ -1,0 +1,109 @@
+/* ══════════════════════════════════════
+   variables.css — Oregon Landscape
+   Ocean blue theme
+══════════════════════════════════════ */
+
+:root {
+  /* ── Ocean palette ── */
+  --ocean-deepest:  #001A45;
+  --ocean-deep:     #002B73;
+  --ocean-mid:      #0047B8;
+  --ocean-bright:   #0878FF;
+  --ocean-glow:     #2AA8FF;
+  --ocean-cta:      #003D9E;
+  --ocean-link:     #168BFF;
+
+  /* ── Green accent ── */
+  --clr-green:       #0a2e14;
+  --clr-green-dark:  #061c0d;
+  --clr-green-bright: #1e6b38;   /* for use on dark backgrounds */
+
+  /* ── Page colors ── */
+  --clr-bg:            #f5f9ff;
+  --clr-bg-2:          #eef4ff;
+  --clr-bg-3:          #e4edf8;
+  --clr-surface:       #ffffff;
+  --clr-surface-2:     #f5f9ff;
+  --clr-border:        rgba(0, 60, 160, 0.10);
+  --clr-border-strong: rgba(0, 60, 160, 0.20);
+
+  --clr-text:          #111827;
+  --clr-text-dark:     #06142d;
+  --clr-text-muted:    #4b5563;
+  --clr-text-dim:      #9ca3af;
+
+  --clr-accent:        #003D9E;
+  --clr-accent-2:      #0878FF;
+  --clr-accent-dark:   #002B73;
+  --clr-accent-soft:   rgba(0, 61, 158, 0.08);
+  --clr-white:         #ffffff;
+
+  /* Dark context */
+  --clr-dark:          #001A45;
+  --clr-dark-2:        #002B73;
+  --clr-on-dark:       #ffffff;
+  --clr-on-dark-muted: rgba(255, 255, 255, 0.75);
+
+  /* Theme-aware chrome */
+  --header-scrolled-bg: rgba(255, 255, 255, 0.96);
+  --nav-open-bg:        rgba(255, 255, 255, 0.99);
+
+  /* ── Typography ── */
+  --font-display: 'Cinzel', serif;
+  --font-body:    'DM Sans', sans-serif;
+
+  --fs-xs:   0.75rem;
+  --fs-sm:   0.875rem;
+  --fs-base: 1rem;
+  --fs-md:   1.125rem;
+  --fs-lg:   1.5rem;
+  --fs-xl:   2rem;
+  --fs-2xl:  2.75rem;
+  --fs-3xl:  clamp(2.25rem, 5.5vw, 4.25rem);
+  --fs-hero: clamp(3.25rem, 7vw, 4.5rem);
+
+  /* ── Spacing ── */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* ── Layout ── */
+  --max-width: 1280px;
+  --gutter:    clamp(1.25rem, 4vw, 2.25rem);
+
+  /* ── Borders ── */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   10px;
+  --radius-xl:   20px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-sm:   0 2px 8px rgba(0, 31, 93, 0.08);
+  --shadow-md:   0 12px 34px rgba(0, 31, 93, 0.14);
+  --shadow-lg:   0 24px 60px rgba(0, 31, 93, 0.18);
+  --shadow-glow: 0 0 44px rgba(8, 120, 255, 0.32);
+
+  /* ── Transitions ── */
+  --ease-out:   cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:    cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-inout: cubic-bezier(0.87, 0, 0.13, 1);
+  --dur-fast:   180ms;
+  --dur-base:   320ms;
+  --dur-slow:   640ms;
+
+  /* ── Z-index ── */
+  --z-below:  -1;
+  --z-base:    0;
+  --z-above:   10;
+  --z-nav:     100;
+  --z-modal:   200;
+  --z-loader:  999;
+}

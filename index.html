@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Oregon Landscape — premium design, installation, and maintenance for the Portland metro area. Owner-operated since 2009 by Tony Iranshad, Mike Myer & Jason Booth. LCB #8864, 40+ years combined experience." />
+  <meta name="theme-color" content="#0e1830" />
+
+  <meta property="og:title" content="Oregon Landscape — Premium Outdoor Design & Installation" />
+  <meta property="og:description" content="Custom landscapes, hardscapes, outdoor living, and maintenance. Based in Clackamas. Serving Portland, Lake Oswego, West Linn, Happy Valley & more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://oregonlandscape.com" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="variables.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pages.css" />
+
+  <title>Oregon Landscape — Premium Landscape Design & Installation</title>
+</head>
+<body>
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Oregon Landscape home">
+        <img src="Public/logo.png" alt="Oregon Landscape" class="logo__img" />
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav__link nav__link--active">Home</a>
+        <div class="nav__dropdown-wrap">
+          <a href="services.html" class="nav__link nav__dropdown-toggle">Services
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav__dropdown-menu">
+            <a href="landscape-design.html">Landscape Design</a>
+            <a href="water-features.html">Water Features</a>
+            <a href="outdoor-living.html">Outdoor Living</a>
+            <a href="patios-walkways.html">Patios &amp; Walkways</a>
+            <a href="planting.html">Planting</a>
+            <a href="retaining-walls.html">Retaining Walls</a>
+            <a href="outdoor-lighting.html">Outdoor Lighting</a>
+            <a href="lawn-irrigation.html">Lawn &amp; Irrigation</a>
+            <a href="installation-maintenance.html">Installation &amp; Maintenance</a>
+          </div>
+        </div>
+        <a href="portfolio.html" class="nav__link">Portfolio</a>
+        <a href="projects.html" class="nav__link">Projects</a>
+        <a href="about-us.html" class="nav__link">About Us</a>
+        <a href="rooted-news.html" class="nav__link">Rooted News</a>
+        <a href="contact-us.html" class="nav__link">Contact</a>
+      </nav>
+      <a href="contact-us.html" class="btn btn--primary header__quote-btn"><span>Free Estimate</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="hero">
+    <!-- Hero background -->
+    <div class="hero__bg">
+      <img class="hero__slide" src="Public/New%20Home%20page%20Hero.png" alt="" />
+      <img class="hero__slide" src="Public/ChatGPT%20Image%20May%2019%2C%202026%2C%2001_22_09%20PM.png" alt="" />
+      <img class="hero__slide" src="Public/New%20home%20page%20hero%203.png" alt="" />
+    </div>
+
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="hero__eyebrow reveal">Beautiful Landscapes.</p>
+        <h1 class="hero__headline reveal reveal--delay-1">
+          Built for Oregon<span class="hero__period">.</span>
+        </h1>
+        <p class="hero__sub reveal reveal--delay-2">
+          We design and build outdoor spaces that are beautiful, functional, and built to thrive in the Pacific Northwest.
+        </p>
+        <div class="hero__actions reveal reveal--delay-3">
+          <a href="contact-us.html" class="btn btn--primary">
+            <span>Request a Quote
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:inline-block;vertical-align:middle;margin-left:6px"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </a>
+          <a href="portfolio.html" class="btn btn--ghost">View Our Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ VALUE STRIP (OceanDepth) ═══ -->
+  <div class="value-strip">
+    <div class="value-strip__card">
+      <!-- Deep ocean background layers -->
+      <div class="ocean-depth" aria-hidden="true">
+        <div class="od-glow od-glow--tl"></div>
+        <div class="od-glow od-glow--tr"></div>
+        <div class="od-glow od-glow--br"></div>
+        <div class="od-glow od-glow--bl"></div>
+        <div class="od-beam"></div>
+        <div class="od-radials"></div>
+        <div class="od-dots"></div>
+      </div>
+
+      <!-- Feature items -->
+      <div class="value-strip__inner">
+
+        <!-- Local & Reliable -->
+        <div class="value-item">
+          <div class="ocean-icon">
+            <div class="ocean-icon__radial"></div>
+            <span class="ocean-icon__glyph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/>
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+              </svg>
+            </span>
+          </div>
+          <div class="value-item__text">
+            <strong class="value-item__title">Local &amp; Reliable</strong>
+            <span class="value-item__desc">Proudly serving Oregon communities.</span>
+          </div>
+        </div>
+
+        <!-- Quality Craftsmanship -->
+        <div class="value-item">
+          <div class="ocean-icon">
+            <div class="ocean-icon__radial"></div>
+            <span class="ocean-icon__glyph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="8" r="6"/>
+                <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+              </svg>
+            </span>
+          </div>
+          <div class="value-item__text">
+            <strong class="value-item__title">Quality Craftsmanship</strong>
+            <span class="value-item__desc">Built with care and attention to detail.</span>
+          </div>
+        </div>
+
+        <!-- Northwest Tough -->
+        <div class="value-item">
+          <div class="ocean-icon">
+            <div class="ocean-icon__radial"></div>
+            <span class="ocean-icon__glyph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
+              </svg>
+            </span>
+          </div>
+          <div class="value-item__text">
+            <strong class="value-item__title">Northwest Tough</strong>
+            <span class="value-item__desc">Landscapes designed to thrive in every season.</span>
+          </div>
+        </div>
+
+        <!-- Customer Focused -->
+        <div class="value-item">
+          <div class="ocean-icon">
+            <div class="ocean-icon__radial"></div>
+            <span class="ocean-icon__glyph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </span>
+          </div>
+          <div class="value-item__text">
+            <strong class="value-item__title">Customer Focused</strong>
+            <span class="value-item__desc">Your vision, our expertise, exceptional results.</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ SERVICES ═══ -->
+  <section class="services" id="services">
+    <div class="services__head reveal container">
+      <p class="section__label">Our Services</p>
+      <h2>Complete Landscaping Solutions</h2>
+      <div class="services__accent-line"></div>
+      <p class="services__subhead">From design to installation and beyond, we provide end-to-end landscaping services tailored to your home, your lifestyle, and the Oregon landscape.</p>
+    </div>
+
+    <div class="services__cards">
+
+      <!-- Card 1: Landscape Design -->
+      <article class="service-card reveal">
+        <div class="service-card__photo">
+          <img src="Public/portfolio/landscape%20design.png" alt="Landscape Design" />
+          <div class="service-card__photo-overlay"></div>
+        </div>
+        <div class="service-card__badge">
+          <div class="ocean-icon ocean-icon--sm">
+            <div class="ocean-icon__radial"></div>
+            <span class="ocean-icon__glyph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18.37 2.63 14 7l-1.59-1.59a2 2 0 0 0-2.82 0L8 7l9 9 1.59-1.58a2 2 0 0 0 0-2.82L17 10l4.37-4.37a2.12 2.12 0 1 0-3-3z"/>
+                <path d="M9 8c-2 3-4 3.5-7 4l8 10c2-1 6-5 6-7"/>
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div class="service-card__body">
+          <h3>Landscape Design</h3>
+          <p>Custom designs tailored to your style, space, and budget.</p>
+          <a href="landscape-design.html" class="service-card__link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 2: Hardscaping -->
+      <article class="service-card reveal reveal--delay-1">
+        <div class="service-card__photo">
+          <img src="Public/hardscape.png" alt="Hardscaping" />
+          <div class="service-card__photo-overlay"></div>
+        </div>
+        <div class="service-card__badge">
+          <div class="ocean-icon ocean-icon--sm">
+            <div class="ocean-icon__radial"></div>
+            <span class="ocean-icon__glyph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="3" width="9" height="5" rx="1"/>
+                <rect x="13" y="3" width="9" height="5" rx="1"/>
+                <rect x="2" y="11" width="6" height="5" rx="1"/>
+                <rect x="10" y="11" width="5" height="5" rx="1"/>
+                <rect x="17" y="11" width="5" height="5" rx="1"/>
+                <rect x="2" y="19" width="9" height="3" rx="1"/>
+                <rect x="13" y="19" width="9" height="3" rx="1"/>
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div class="service-card__body">
+          <h3>Hardscaping</h3>
+          <p>Patios, walkways, retaining walls, and more built to last.</p>
+          <a href="patios-walkways.html" class="service-card__link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 3: Planting & Irrigation -->
+      <article class="service-card reveal reveal--delay-2">
+        <div class="service-card__photo">
+          <img src="Public/Planting%20%26%20Irrigation.png" alt="Planting & Irrigation" />
+          <div class="service-card__photo-overlay"></div>
+        </div>
+        <div class="service-card__badge">
+          <div class="ocean-icon ocean-icon--sm">
+            <div class="ocean-icon__radial"></div>
+            <span class="ocean-icon__glyph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 20h10M10 20c5.5-2.5.8-6.4 3-9"/>
+                <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/>
+                <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/>
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div class="service-card__body">
+          <h3>Planting &amp; Irrigation</h3>
+          <p>Healthy plants and efficient irrigation systems that thrive.</p>
+          <a href="planting.html" class="service-card__link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 4: Outdoor Living -->
+      <article class="service-card reveal reveal--delay-3">
+        <div class="service-card__photo">
+          <img src="Public/Outdoor.png" alt="Outdoor Living" />
+          <div class="service-card__photo-overlay"></div>
+        </div>
+        <div class="service-card__badge">
+          <div class="ocean-icon ocean-icon--sm">
+            <div class="ocean-icon__radial"></div>
+            <span class="ocean-icon__glyph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <!-- pergola posts -->
+                <line x1="3" y1="7" x2="3" y2="21"/>
+                <line x1="21" y1="7" x2="21" y2="21"/>
+                <!-- top beam -->
+                <line x1="1" y1="7" x2="23" y2="7"/>
+                <!-- rafters -->
+                <line x1="6" y1="7" x2="6" y2="4"/>
+                <line x1="10" y1="7" x2="10" y2="4"/>
+                <line x1="14" y1="7" x2="14" y2="4"/>
+                <line x1="18" y1="7" x2="18" y2="4"/>
+                <!-- ridge beam -->
+                <line x1="5" y1="4" x2="19" y2="4"/>
+                <!-- bench seat -->
+                <line x1="6" y1="16" x2="18" y2="16"/>
+                <!-- bench legs -->
+                <line x1="8" y1="16" x2="8" y2="20"/>
+                <line x1="16" y1="16" x2="16" y2="20"/>
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div class="service-card__body">
+          <h3>Outdoor Living</h3>
+          <p>Fire features, lighting, and spaces made for entertaining.</p>
+          <a href="outdoor-living.html" class="service-card__link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="services__footer reveal">
+      <a href="services.html" class="btn btn--primary">View All Services</a>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT BANNER ═══ -->
+  <div class="about-banner">
+    <img src="Public/portfolio/commited.png" alt="Beautiful Oregon landscape with professional lighting at dusk" loading="lazy" />
+    <div class="about-banner__overlay"></div>
+    <div class="about-banner__content reveal">
+      <p class="about-banner__eyebrow">About Oregon Landscape</p>
+      <h2 class="about-banner__title">Rooted in Oregon. Committed to Excellence.</h2>
+      <p class="about-banner__body">We're a locally owned and operated company that takes pride in creating outdoor spaces that reflect the natural beauty of the Pacific Northwest. With a focus on quality, craftsmanship, and customer satisfaction, we bring your vision to life.</p>
+      <a href="about-us.html" class="about-banner__cta">Learn More About Us
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- ═══ TESTIMONIALS ═══ -->
+  <section class="section reviews">
+    <div class="container">
+
+      <div class="reviews__head reveal">
+        <p class="reviews__eyebrow">What Our Clients Say</p>
+        <h2 class="reviews__title">Trusted by Homeowners Across Oregon</h2>
+        <div class="reviews__google">
+          <div class="reviews__google-badge">
+            <svg width="22" height="22" viewBox="0 0 48 48" aria-label="Google" role="img">
+              <path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.4 33.8 30 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6-6C34.8 5.1 29.7 3 24 3 12.4 3 3 12.4 3 24s9.4 21 21 21c10.8 0 20-7.8 20-21 0-1.3-.2-2.7-.5-4z"/>
+              <path fill="#34A853" d="M6.3 14.7l7 5.1C15.1 16 19.2 13 24 13c3.1 0 5.9 1.1 8.1 2.9l6-6C34.8 5.1 29.7 3 24 3 16.2 3 9.4 7.8 6.3 14.7z"/>
+              <path fill="#FBBC05" d="M24 45c5.8 0 10.9-1.9 14.9-5.2l-6.9-5.7C29.9 35.9 27.1 37 24 37c-6 0-10.4-3.2-11.8-7.5l-6.9 5.3C9.1 41 16.1 45 24 45z"/>
+              <path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.7 2.5-2.2 4.6-4.3 6.1l6.9 5.7c4-3.7 6.6-9.3 6.6-16.3 0-1.3-.2-2.7-.5-4z"/>
+            </svg>
+            <div class="reviews__google-info">
+              <strong class="reviews__google-score">4.8</strong>
+              <span class="reviews__google-stars">★★★★★</span>
+              <span class="reviews__google-label">Google Reviews</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__cards">
+
+        <div class="review-card reveal">
+          <span class="review-card__mark">"</span>
+          <span class="review-card__stars">★★★★★</span>
+          <p>"Outstanding! We couldn't be happier. They completed an intricate job — excavation, new patio, steps, retaining walls, fire pit, and a hot tub. Honest, very reasonable, and the work is of the utmost quality. On time, on budget. 100% satisfied."</p>
+          <cite>
+            Michele A.
+            <span>Patio, retaining walls, fire pit &amp; hot tub · Verified Angi Review</span>
+          </cite>
+        </div>
+
+        <div class="review-card reveal reveal--delay-1">
+          <span class="review-card__mark">"</span>
+          <span class="review-card__stars">★★★★★</span>
+          <p>"It actually exceeded our expectations — and this comes from people whose expectations are rarely exceeded. We now have a yard we want to spend time in. Without any hesitation, we highly recommend Oregon Landscape."</p>
+          <cite>
+            Ryan Wiley
+            <span>Full-property overhaul · Pavers, walls &amp; irrigation</span>
+          </cite>
+        </div>
+
+        <div class="review-card reveal reveal--delay-2">
+          <span class="review-card__mark">"</span>
+          <span class="review-card__stars">★★★★★</span>
+          <p>"They were there every day, showed up when they said they were going to show up, and did an outstanding job. I have used other landscaping companies in the past, and Oregon Landscape stands above the rest."</p>
+          <cite>
+            Lonny Doi
+            <span>Front &amp; back yard renovation · Patios &amp; plantings</span>
+          </cite>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA BAR ═══ -->
+  <section class="cta-bar" id="contact">
+    <img src="Public/Ready%20to%20Transform%20Your%20Outdoor%20Space%3F.png" class="cta-bar__plant cta-bar__plant--left" alt="" aria-hidden="true" />
+    <img src="Public/Ready%20to%20Transform%20Your%20Outdoor%20Space%3F.png" class="cta-bar__plant cta-bar__plant--right" alt="" aria-hidden="true" />
+    <div class="container cta-bar__inner">
+      <div class="cta-bar__left reveal">
+        <div class="cta-bar__text">
+          <h2>Ready to Transform Your Outdoor Space?</h2>
+          <p>Let's build something beautiful together. Free consultation — no commitment.</p>
+        </div>
+      </div>
+      <div class="cta-bar__right reveal reveal--delay-1">
+        <a href="tel:5038554976" class="btn btn--primary btn--lg">
+          Call 503-855-4976
+        </a>
+        <a href="mailto:info@oregonlandscape.com" class="btn btn--ghost cta-bar__email-btn">
+          Request a Quote →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ RECENT PROJECTS ═══ -->
+  <section class="section projects" id="portfolio">
+    <div class="container">
+      <div class="projects__head reveal">
+        <p class="section__label" style="justify-content:center;">Our Work</p>
+        <h2 class="projects__title">Recent Projects</h2>
+        <div class="projects__accent"></div>
+        <p class="projects__lead">Take a look at some of our recently completed projects.<br />Each one is designed and built with care, quality, and attention to detail.</p>
+      </div>
+
+      <div class="projects__grid">
+
+        <article class="proj-card reveal">
+          <img src="Public/portfolio/dsc-2749.jpeg" alt="Full property landscape, Lake Oswego OR" loading="lazy" />
+          <div class="proj-card__overlay"></div>
+          <div class="proj-card__body">
+            <h3>Full Property Landscape</h3>
+            <p>Lake Oswego, OR</p>
+            <a href="projects.html" class="proj-card__link">View Project →</a>
+          </div>
+        </article>
+
+        <article class="proj-card reveal reveal--delay-1">
+          <img src="Public/portfolio/dsc-3067.jpeg" alt="Custom waterfall and stream, West Linn OR" loading="lazy" />
+          <div class="proj-card__overlay"></div>
+          <div class="proj-card__body">
+            <h3>Custom Waterfall & Stream</h3>
+            <p>West Linn, OR</p>
+            <a href="projects.html" class="proj-card__link">View Project →</a>
+          </div>
+        </article>
+
+        <article class="proj-card reveal reveal--delay-2">
+          <img src="Public/portfolio/dsc-7966.jpeg" alt="Paver patio and garden, Happy Valley OR" loading="lazy" />
+          <div class="proj-card__overlay"></div>
+          <div class="proj-card__body">
+            <h3>Paver Patio & Garden</h3>
+            <p>Happy Valley, OR</p>
+            <a href="projects.html" class="proj-card__link">View Project →</a>
+          </div>
+        </article>
+
+        <article class="proj-card reveal reveal--delay-3">
+          <img src="Public/portfolio/dsc-8114.jpeg" alt="Retaining wall and water garden, Clackamas OR" loading="lazy" />
+          <div class="proj-card__overlay"></div>
+          <div class="proj-card__body">
+            <h3>Retaining Wall & Pond</h3>
+            <p>Clackamas, OR</p>
+            <a href="projects.html" class="proj-card__link">View Project →</a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="projects__footer reveal">
+        <a href="projects.html" class="btn btn--ghost-light btn--lg">View More Projects →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <img src="Public/footer.png" class="footer__bg" alt="" aria-hidden="true" />
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="logo" aria-label="Oregon Landscape">
+          <img src="Public/logo.png" alt="Oregon Landscape" class="logo__img" />
+        </a>
+        <p>Design, installation, and maintenance for homeowners and commercial properties across the Portland metro. Family-owned since 2009.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <a href="landscape-design.html">Landscape Design</a>
+        <a href="outdoor-living.html">Outdoor Living</a>
+        <a href="patios-walkways.html">Hardscapes</a>
+        <a href="water-features.html">Water Features</a>
+        <a href="outdoor-lighting.html">Lighting &amp; Irrigation</a>
+        <a href="installation-maintenance.html">Maintenance</a>
+      </div>
+      <div class="footer__col">
+        <h4>Service Area</h4>
+        <a href="#contact">Portland</a>
+        <a href="#contact">Clackamas</a>
+        <a href="#contact">Happy Valley</a>
+        <a href="#contact">Oregon City</a>
+        <a href="#contact">Lake Oswego</a>
+        <a href="#contact">West Linn</a>
+        <a href="#contact">Gresham</a>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="about-us.html">About</a>
+        <a href="portfolio.html">Projects</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact-us.html">Free Estimate</a>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; <span id="year"></span> Oregon Landscape, LLC. All rights reserved. · LCB #8864 · BBB A+ Rated</p>
+      <div>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

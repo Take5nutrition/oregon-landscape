@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse Oregon Landscape's portfolio of completed projects — water features, patios, outdoor living spaces, planting, retaining walls, and more across the Portland metro." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="variables.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pages.css" />
+  <title>Portfolio — Oregon Landscape</title>
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Oregon Landscape home">
+        <img src="Public/logo.png" alt="Oregon Landscape" class="logo__img" />
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav__link">Home</a>
+        <div class="nav__dropdown-wrap">
+          <a href="services.html" class="nav__link nav__dropdown-toggle">Services
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav__dropdown-menu">
+            <a href="landscape-design.html">Landscape Design</a>
+            <a href="water-features.html">Water Features</a>
+            <a href="outdoor-living.html">Outdoor Living</a>
+            <a href="patios-walkways.html">Patios &amp; Walkways</a>
+            <a href="planting.html">Planting</a>
+            <a href="retaining-walls.html">Retaining Walls</a>
+            <a href="outdoor-lighting.html">Outdoor Lighting</a>
+            <a href="lawn-irrigation.html">Lawn &amp; Irrigation</a>
+            <a href="installation-maintenance.html">Installation &amp; Maintenance</a>
+          </div>
+        </div>
+        <a href="portfolio.html" class="nav__link nav__link--page-active">Portfolio</a>
+        <a href="projects.html" class="nav__link">Projects</a>
+        <a href="about-us.html" class="nav__link">About Us</a>
+        <a href="rooted-news.html" class="nav__link">Rooted News</a>
+        <a href="contact-us.html" class="nav__link">Contact</a>
+      </nav>
+      <a href="contact-us.html" class="btn btn--primary header__quote-btn"><span>Free Estimate</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <img src="Public/portfolio/dsc-2749.jpeg" class="page-hero__bg" alt="" />
+    <div class="page-hero__overlay"></div>
+    <div class="page-hero__content">
+      <div class="page-hero__breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span>Portfolio</span>
+      </div>
+      <h1 class="page-hero__title">Our Portfolio</h1>
+      <p class="page-hero__sub">Custom landscapes built across Portland, Clackamas, Lake Oswego, West Linn, and the surrounding area.</p>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container">
+
+      <div class="port-filters reveal">
+        <button class="port-filter-btn active" data-filter="all">All Projects</button>
+        <button class="port-filter-btn" data-filter="water">Water Features</button>
+        <button class="port-filter-btn" data-filter="hardscape">Patios &amp; Hardscape</button>
+        <button class="port-filter-btn" data-filter="planting">Planting</button>
+        <button class="port-filter-btn" data-filter="outdoor-living">Outdoor Living</button>
+        <button class="port-filter-btn" data-filter="retaining">Retaining Walls</button>
+      </div>
+
+      <div class="port-grid">
+
+        <div class="port-item reveal" data-category="water hardscape">
+          <img src="Public/portfolio/dsc-2749.jpeg" alt="Full landscape with pond and patio" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Water Feature · Hardscape · Lake Oswego, OR</div>
+        </div>
+
+        <div class="port-item reveal reveal--delay-1" data-category="water">
+          <img src="Public/portfolio/dsc-3067.jpeg" alt="Custom waterfall and stream" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Custom Waterfall · West Linn, OR</div>
+        </div>
+
+        <div class="port-item reveal reveal--delay-2" data-category="hardscape">
+          <img src="Public/portfolio/dsc-7966.jpeg" alt="Paver patio with garden" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Paver Patio &amp; Garden · Happy Valley, OR</div>
+        </div>
+
+        <div class="port-item reveal" data-category="retaining water">
+          <img src="Public/portfolio/dsc-8114.jpeg" alt="Retaining wall with pond" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Retaining Wall &amp; Pond · Clackamas, OR</div>
+        </div>
+
+        <div class="port-item reveal reveal--delay-1" data-category="water">
+          <img src="Public/portfolio/dsc-2749.jpeg" alt="Rock water fountain feature" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Rock Fountain · Portland, OR</div>
+        </div>
+
+        <div class="port-item reveal reveal--delay-2" data-category="water">
+          <img src="Public/portfolio/dsc-8286.jpeg" alt="Custom water feature" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Custom Water Feature · Gresham, OR</div>
+        </div>
+
+        <div class="port-item reveal" data-category="planting">
+          <img src="Public/portfolio/planting.jpg" alt="Landscape planting" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Landscape Planting · Portland, OR</div>
+        </div>
+
+        <div class="port-item reveal reveal--delay-1" data-category="outdoor-living">
+          <img src="Public/portfolio/outdoor-living.jpg" alt="Outdoor living space" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Outdoor Living Space · Lake Oswego, OR</div>
+        </div>
+
+        <div class="port-item reveal reveal--delay-2" data-category="hardscape">
+          <img src="Public/portfolio/patios-walkways.jpg" alt="Custom patio and walkway" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Patio &amp; Walkway · West Linn, OR</div>
+        </div>
+
+        <div class="port-item reveal" data-category="water">
+          <img src="Public/portfolio/waterfall.jpeg" alt="Natural waterfall" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Natural Waterfall · Happy Valley, OR</div>
+        </div>
+
+        <div class="port-item reveal reveal--delay-1" data-category="outdoor-living">
+          <img src="Public/portfolio/outdoor-lighting.jpg" alt="Outdoor lighting" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Outdoor Lighting · Clackamas, OR</div>
+        </div>
+
+        <div class="port-item reveal reveal--delay-2" data-category="water">
+          <img src="Public/portfolio/pond.jpg" alt="Custom pond" loading="lazy" />
+          <div class="port-item__overlay"></div>
+          <div class="port-item__label">Custom Pond · Oregon City, OR</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Bar -->
+  <section class="cta-bar">
+    <img src="Public/Ready%20to%20Transform%20Your%20Outdoor%20Space%3F.png" class="cta-bar__plant cta-bar__plant--left" alt="" aria-hidden="true" />
+    <img src="Public/Ready%20to%20Transform%20Your%20Outdoor%20Space%3F.png" class="cta-bar__plant cta-bar__plant--right" alt="" aria-hidden="true" />
+    <div class="container cta-bar__inner">
+      <div class="cta-bar__left reveal">
+        <div class="cta-bar__text">
+          <h2>Ready to Transform Your Outdoor Space?</h2>
+          <p>Let's build something beautiful together. Free consultation — no commitment.</p>
+        </div>
+      </div>
+      <div class="cta-bar__right reveal reveal--delay-1">
+        <a href="tel:5038554976" class="btn btn--primary btn--lg">Call 503-855-4976</a>
+        <a href="contact-us.html" class="btn btn--ghost cta-bar__email-btn">Request a Quote →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <img src="Public/footer.png" class="footer__bg" alt="" aria-hidden="true" />
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="logo"><img src="Public/logo.png" alt="Oregon Landscape" class="logo__img" /></a>
+        <p>Design, installation, and maintenance for homeowners and commercial properties across the Portland metro. Family-owned since 2009.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <a href="landscape-design.html">Landscape Design</a>
+        <a href="outdoor-living.html">Outdoor Living</a>
+        <a href="patios-walkways.html">Patios &amp; Walkways</a>
+        <a href="water-features.html">Water Features</a>
+        <a href="outdoor-lighting.html">Outdoor Lighting</a>
+        <a href="lawn-irrigation.html">Lawn &amp; Irrigation</a>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="about-us.html">About Us</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact-us.html">Contact</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="tel:5038554976">503-855-4976</a>
+        <a href="mailto:info@oregonlandscape.com">info@oregonlandscape.com</a>
+        <p style="color:rgba(255,255,255,0.60);font-size:.875rem;margin-top:.5rem;">14081 SE Morning Way<br/>Clackamas, OR 97015</p>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; <span id="year"></span> Oregon Landscape LLC · LCB #8864 · All rights reserved</p>
+      <div><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    // Portfolio filter
+    const filterBtns = document.querySelectorAll('.port-filter-btn');
+    const portItems = document.querySelectorAll('.port-item');
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        portItems.forEach(item => {
+          const cat = item.dataset.category || '';
+          item.style.display = (filter === 'all' || cat.includes(filter)) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
