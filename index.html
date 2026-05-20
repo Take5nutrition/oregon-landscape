@@ -13,11 +13,12 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
-
+  <link rel="preload" href="Public/New%20Home%20page%20Hero.jpeg" as="image" fetchpriority="high" />
   <link rel="stylesheet" href="variables.css" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="pages.css" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" /></noscript>
 
   <title>Oregon Landscape — Premium Landscape Design & Installation</title>
 </head>
@@ -62,9 +63,9 @@
   <section class="hero" id="hero">
     <!-- Hero background -->
     <div class="hero__bg">
-      <img class="hero__slide" src="Public/New%20Home%20page%20Hero.png" alt="" />
-      <img class="hero__slide" src="Public/ChatGPT%20Image%20May%2019%2C%202026%2C%2001_22_09%20PM.png" alt="" />
-      <img class="hero__slide" src="Public/New%20home%20page%20hero%203.png" alt="" />
+      <img class="hero__slide" src="Public/New%20Home%20page%20Hero.jpeg" alt="" fetchpriority="high" />
+      <img class="hero__slide" src="Public/ChatGPT%20Image%20May%2019%2C%202026%2C%2001_22_09%20PM.jpeg" alt="" loading="lazy" />
+      <img class="hero__slide" src="Public/New%20home%20page%20hero%203.jpeg" alt="" loading="lazy" />
     </div>
 
     <div class="container hero__inner">
@@ -192,7 +193,7 @@
       <!-- Card 1: Landscape Design -->
       <article class="service-card reveal">
         <div class="service-card__photo">
-          <img src="Public/portfolio/landscape%20design.png" alt="Landscape Design" />
+          <img src="Public/portfolio/landscape%20design.jpeg" alt="Landscape Design" />
           <div class="service-card__photo-overlay"></div>
         </div>
         <div class="service-card__badge">
@@ -219,7 +220,7 @@
       <!-- Card 2: Hardscaping -->
       <article class="service-card reveal reveal--delay-1">
         <div class="service-card__photo">
-          <img src="Public/hardscape.png" alt="Hardscaping" />
+          <img src="Public/hardscape.jpeg" alt="Hardscaping" />
           <div class="service-card__photo-overlay"></div>
         </div>
         <div class="service-card__badge">
@@ -251,7 +252,7 @@
       <!-- Card 3: Planting & Irrigation -->
       <article class="service-card reveal reveal--delay-2">
         <div class="service-card__photo">
-          <img src="Public/Planting%20%26%20Irrigation.png" alt="Planting & Irrigation" />
+          <img src="Public/Planting%20%26%20Irrigation.jpeg" alt="Planting & Irrigation" />
           <div class="service-card__photo-overlay"></div>
         </div>
         <div class="service-card__badge">
@@ -279,7 +280,7 @@
       <!-- Card 4: Outdoor Living -->
       <article class="service-card reveal reveal--delay-3">
         <div class="service-card__photo">
-          <img src="Public/Outdoor.png" alt="Outdoor Living" />
+          <img src="Public/Outdoor.jpeg" alt="Outdoor Living" />
           <div class="service-card__photo-overlay"></div>
         </div>
         <div class="service-card__badge">
@@ -327,7 +328,7 @@
 
   <!-- ═══ ABOUT BANNER ═══ -->
   <div class="about-banner">
-    <img src="Public/portfolio/commited.png" alt="Beautiful Oregon landscape with professional lighting at dusk" loading="lazy" />
+    <img src="Public/portfolio/commited.jpeg" alt="Beautiful Oregon landscape with professional lighting at dusk" loading="lazy" />
     <div class="about-banner__overlay"></div>
     <div class="about-banner__content reveal">
       <p class="about-banner__eyebrow">About Oregon Landscape</p>
@@ -401,8 +402,8 @@
 
   <!-- ═══ CTA BAR ═══ -->
   <section class="cta-bar" id="contact">
-    <img src="Public/Ready%20to%20Transform%20Your%20Outdoor%20Space%3F.png" class="cta-bar__plant cta-bar__plant--left" alt="" aria-hidden="true" />
-    <img src="Public/Ready%20to%20Transform%20Your%20Outdoor%20Space%3F.png" class="cta-bar__plant cta-bar__plant--right" alt="" aria-hidden="true" />
+    <img src="Public/Ready%20to%20Transform%20Your%20Outdoor%20Space%3F.jpeg" class="cta-bar__plant cta-bar__plant--left" alt="" aria-hidden="true" />
+    <img src="Public/Ready%20to%20Transform%20Your%20Outdoor%20Space%3F.jpeg" class="cta-bar__plant cta-bar__plant--right" alt="" aria-hidden="true" />
     <div class="container cta-bar__inner">
       <div class="cta-bar__left reveal">
         <div class="cta-bar__text">
@@ -483,7 +484,7 @@
 
   <!-- ═══ FOOTER ═══ -->
   <footer class="footer">
-    <img src="Public/footer.png" class="footer__bg" alt="" aria-hidden="true" />
+    <img src="Public/footer.jpeg" class="footer__bg" alt="" aria-hidden="true" />
     <div class="container footer__inner">
       <div class="footer__brand">
         <a href="index.html" class="logo" aria-label="Oregon Landscape">
